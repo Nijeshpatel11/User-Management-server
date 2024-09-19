@@ -17,7 +17,7 @@ connectDB();   // Done
 const app = express(); // Done
 
 app.use(cors({
-  origin: 'https://test-eight-chi-71.vercel.app',  // Allow frontend on port 5173
+  origin: 'https://user-management-client-sandy.vercel.app',  // Allow frontend on port 5173
 }));
 
 // Middleware to parse incoming JSON data
